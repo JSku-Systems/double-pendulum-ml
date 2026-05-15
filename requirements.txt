@@ -3,5 +3,4 @@ scipy
 matplotlib
 tensorflow
 scikit-learn
-umap-learn
 tqdm
