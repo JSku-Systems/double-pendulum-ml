@@ -25,7 +25,7 @@ The two notebooks form a coherent pipeline:
 
 **Notebook 1**: full‑state forecasting using a baseline model and physics informed model
 
-**Notebook 2**: reduced‑order forecasting and coordinate selection <\br>
+**Notebook 2**: reduced‑order forecasting and coordinate selection<\br>
 
 
 ## Notebook 1 : Full‑State Forecasting 
