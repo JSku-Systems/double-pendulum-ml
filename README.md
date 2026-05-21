@@ -3,9 +3,9 @@
 This repository explores data‑driven forecasting for the double pendulum, a classical chaotic mechanical system.
 Two complementary modelling settings are examined:
 
-* Full‑state forecasting using all eight physical coordinates
+* **Full‑state forecasting** using all eight physical coordinates
 
-* Reduced‑order forecasting using only the most informative observables of the second mass
+* **Reduced‑order forecasting** using only the most informative observables of the second mass
 
 The project combines simulation, dimensionality reduction, sensitivity analysis, and sequence modelling to study how chaos, partial observability, and physical structure influence forecasting performance.
 
