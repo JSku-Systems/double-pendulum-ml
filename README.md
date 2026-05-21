@@ -9,7 +9,7 @@ Reduced‑order forecasting using only the most informative observables of the s
 
 The project combines simulation, dimensionality reduction, sensitivity analysis, and sequence modelling to study how chaos, partial observability, and physical structure influence forecasting performance.
 
-## Overview
+## Overview :
 The double pendulum is an eight‑dimensional chaotic system with strong sensitivity to initial conditions.
 This project investigates:
 
@@ -25,7 +25,7 @@ The two notebooks form a coherent pipeline:
 
 **Notebook 1**: full‑state forecasting using a baseline model and physics informed model
 
-**Notebook 2**: reduced‑order forecasting and coordinate selection
+**Notebook 2**: reduced‑order forecasting and coordinate selection <\br>
 
 
 ## Notebook 1 : Full‑State Forecasting 
@@ -41,7 +41,7 @@ The two notebooks form a coherent pipeline:
 
 * Max‑value normalisation
 
-### Baseline Model
+### Baseline Model :
 
 * Single‑layer LSTM
 
@@ -67,13 +67,13 @@ The two notebooks form a coherent pipeline:
 
 * Deviation curves show exponential‑like error growth
 
-### Physics‑Informed Model
+### Physics‑Informed Model : 
 
 * Adds an energy‑based penalty term
 
 * Scale‑matched weighting (λ ≈ 10⁻³–10⁻⁴)
 
-* Same architecture as baseline
+* Similar architecture as baseline
 
 #### Short‑horizon behaviour
 
