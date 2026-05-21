@@ -25,7 +25,7 @@ The two notebooks form a coherent pipeline:
 
 **Notebook 1**: full‑state forecasting using a baseline model and physics informed model
 
-**Notebook 2**: reduced‑order forecasting and coordinate selection<\br>
+**Notebook 2**: reduced‑order forecasting and coordinate selection <\br>
 
 
 ## Notebook 1 : Full‑State Forecasting 
@@ -98,6 +98,25 @@ The two notebooks form a coherent pipeline:
 **Physics‑informed:** less precise locally, more stable structurally
 
 **Both:** diverge eventually due to chaotic amplification
+
+
+## Notebook 2 : Reduced‑Order Forecasting
+
+### Dimensionality‑Reduction & Sensitivity Analysis:
+
+To identify informative coordinates, the full dataset is analysed using:
+
+* PCA — variance structure and principal‑axis loadings
+
+* t‑SNE / UMAP — nonlinear state‑space geometry and regime separation
+
+* Predictive sensitivity; one‑step regression errors for each coordinate
+
+* Across all methods, x₂ and vₓ₂ consistently emerge as the most informative observables.
+
+
+
+
 
 
 
