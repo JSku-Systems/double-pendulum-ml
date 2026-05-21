@@ -154,13 +154,7 @@ All models use the same:
 
 * Errors accumulate smoothly and plausibly
 
-#### Test‑Set MAE
-
-x₂‑only: 0.1318
-
-vₓ₂‑only: 0.2266
-
-[x₂,vₓ₂] : 
+  
 
 ### Notebook 2 Summary
 
@@ -186,7 +180,7 @@ vₓ₂‑only: 0.2266
 
 ## Running the Project: 
 
-git clone https://github.com/<JSku-Systems>/double-pendulum-ml.git
+git clone https://github.com/JSku-Systems/double-pendulum-ml.git
 
 cd double-pendulum-ml
 
@@ -199,6 +193,7 @@ Run the notebooks in order:
 02_reduced_order_forecasting.ipynb
 
 Both notebooks generate their own simulation data.
+
 
 ## Future Work: 
 
