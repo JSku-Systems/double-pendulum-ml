@@ -23,10 +23,30 @@ how physics‑informed losses influence long‑horizon stability
 
 The two notebooks form a coherent pipeline:
 
-**Notebook 1**: full‑state forecasting + physics‑informed baseline
+**Notebook 1**: full‑state forecasting using a baseline model and physics informed model
 
-**Notebook 2**: reduced‑order forecasting + coordinate selection
+**Notebook 2**: reduced‑order forecasting and coordinate selection
 
+
+Notebook 1 : Full‑State Forecasting Dataset
+*20 simulated trajectories
+
+~9020 samples
+
+*8‑dimensional state: (𝑥1,𝑦1,𝑥2,𝑦2,𝑣𝑥1,𝑣𝑦1,𝑣𝑥2,𝑣𝑦2)
+
+Chronological 80/10/10 train/val/test split
+
+*Max‑value normalisation
+
+Baseline Model
+Single‑layer LSTM
+
+Dense output layer predicting the next 8‑D state
+
+50‑step input window
+
+Early stopping, no shuffling
 
 ## Key Results
 Full‑State Model
