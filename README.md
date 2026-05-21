@@ -13,13 +13,13 @@ The project combines simulation, dimensionality reduction, sensitivity analysis,
 The double pendulum is an eight‑dimensional chaotic system with strong sensitivity to initial conditions.
 This project investigates:
 
-how LSTM models behave under full and partial observability
+* how LSTM models behave under full and partial observability
 
-how dimensionality reduction and predictive sensitivity reveal informative coordinates
+* how dimensionality reduction and predictive sensitivity reveal informative coordinates
 
-how reduced‑order models compare to full‑state baselines
+* how reduced‑order models compare to full‑state baselines
 
-how physics‑informed losses influence long‑horizon stability
+* how physics‑informed losses influence long‑horizon stability
 
 The two notebooks form a coherent pipeline:
 
