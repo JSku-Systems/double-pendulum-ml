@@ -28,7 +28,9 @@ The two notebooks form a coherent pipeline:
 **Notebook 2**: reduced‑order forecasting and coordinate selection
 
 
-## Notebook 1 Full‑State Forecasting Dataset :
+## Notebook 1 : Full‑State Forecasting 
+
+### Dataset 
 * 20 simulated trajectories
 
 * Approximately 9020 samples
@@ -39,14 +41,23 @@ The two notebooks form a coherent pipeline:
 
 * Max‑value normalisation
 
-Baseline Model
-Single‑layer LSTM
+#### Baseline Model
 
-Dense output layer predicting the next 8‑D state
+* Single‑layer LSTM
 
-50‑step input window
+* Dense output layer predicting the next 8‑D state
 
-Early stopping, no shuffling
+* 50‑step input window
+
+* Early stopping, no shuffling
+
+
+
+
+
+
+
+
 
 ## Key Results
 Full‑State Model
