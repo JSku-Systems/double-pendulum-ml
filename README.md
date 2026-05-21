@@ -186,7 +186,7 @@ vₓ₂‑only: 0.2266
 
 ## Running the Project: 
 
-git clone https://github.com/<JSKu-Systems>/double-pendulum-ml.git
+git clone https://github.com/<JSku-Systems>/double-pendulum-ml.git
 cd double-pendulum-ml
 pip install -r requirements.txt
 jupyter notebook
