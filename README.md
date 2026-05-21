@@ -1,12 +1,14 @@
-# Double Pendulum ML — Forecasting Chaotic Dynamics
-This project explores data‑driven forecasting for the double pendulum, a classical chaotic system.
-Using simulated trajectories from the nonlinear ODEs, two modelling approaches are developed:
+# Double Pendulum ML — Forecasting Chaotic Dynamics Under Full and Partial Observability
 
-**I. Full‑state forecasting using all 8 physical coordinates**
+This repository explores data‑driven forecasting for the double pendulum, a classical chaotic mechanical system.
+Two complementary modelling settings are examined:
 
-**II. Reduced‑order forecasting using the deduced,  most informative observables (𝑥2, 𝑣𝑥2)**
+Full‑state forecasting using all eight physical coordinates
 
-Dimensionality‑reduction and sensitivity analysis guide the choice of reduced coordinates, and LSTM models are evaluated under both full and partial observability.
+Reduced‑order forecasting using only the most informative observables of the second mass
+
+The project combines simulation, dimensionality reduction, sensitivity analysis, and sequence modelling to study how chaos, partial observability, and physical structure influence forecasting performance.
+
 
 
 ## Overview
