@@ -29,15 +29,15 @@ The two notebooks form a coherent pipeline:
 
 
 ## Notebook 1 : Full‑State Forecasting Dataset
-*20 simulated trajectories
+* 20 simulated trajectories
 
-~9020 samples
+* Approximately 9020 samples
 
-*8‑dimensional state: (𝑥1,𝑦1,𝑥2,𝑦2,𝑣𝑥1,𝑣𝑦1,𝑣𝑥2,𝑣𝑦2)
+* 8‑dimensional state: (𝑥1,𝑦1,𝑥2,𝑦2,𝑣𝑥1,𝑣𝑦1,𝑣𝑥2,𝑣𝑦2)
 
-Chronological 80/10/10 train/val/test split
+* Chronological 80/10/10 train/val/test split
 
-*Max‑value normalisation
+* Max‑value normalisation
 
 Baseline Model
 Single‑layer LSTM
