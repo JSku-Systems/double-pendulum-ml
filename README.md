@@ -172,39 +172,43 @@ vₓ₂‑only: 0.2266
 
 
 
+## Key Insights:
+* Chaotic systems allow accurate short‑term but not long‑term prediction
+
+* Physics‑informed losses improve structural stability
+
+* Data‑driven analyses (PCA, t‑SNE, UMAP, sensitivity) identify informative coordinates
+
+* Reduced‑order models using [x₂,vₓ₂] recover a substantial fraction of full‑state performance
+
+* Partial observability leads to smooth, physically plausible divergence rather than numerical instability
 
 
+## Running the Project: 
+
+git clone https://github.com/<JSKu-Systems>/double-pendulum-ml.git
+cd double-pendulum-ml
+pip install -r requirements.txt
+jupyter notebook
+
+Run the notebooks in order:
+
+01_full_state_forecasting.ipynb
+
+02_reduced_order_forecasting.ipynb
+
+Both notebooks generate their own simulation data.
+
+## Future Work: 
+
+* Physics‑informed reduced‑order models
+
+* Transformer‑based sequence models
+
+* Lyapunov exponent estimation
 
 
-
-
-
-
-
-## Key Results
-Full‑State Model
-Accurate short‑horizon predictions
-
-Divergence over long horizons, consistent with chaotic dynamics
-
-Stable autoregressive rollouts
-
-Reduced‑Order Models
-x₂‑only: captures short‑term behaviour, diverges quickly
-
-vₓ₂‑only: weaker performance
-
-[x₂, vₓ₂]:
-
-best reduced‑order performance
-
-slower deviation growth
-
-## Scientific Insight
-A minimal pair of physically meaningful coordinates can support non‑trivial forecasting of an 8‑dimensional chaotic system, but long‑horizon divergence is unavoidable due to exponential Lyapunov growth.
-
-
-
-
+## License: 
+Released under the MIT License
 retains a meaningful fraction of full‑state accuracy
 
