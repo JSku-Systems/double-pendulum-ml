@@ -115,6 +115,60 @@ To identify informative coordinates, the full dataset is analysed using:
 * Across all methods, x₂ and vₓ₂ consistently emerge as the most informative observables.
 
 
+### Reduced‑Order Models :
+
+Three LSTM models are trained to forecast the full 8‑D state using:
+
+* x₂ only
+
+* vₓ₂ only
+
+* [x₂ , vₓ₂]  (2‑D reduced state)
+
+All models use the same:
+
+* scaling
+
+* train/val/test split
+
+* architecture
+
+* early stopping
+
+* 20‑step and 100‑step rollouts
+
+#### Short‑Horizon (20 steps) behaviour
+
+* x₂‑only: captures short‑term structure, diverges moderately
+
+* vₓ₂‑only: weaker performance, consistent with sensitivity ranking
+
+* [x₂,vₓ₂]: most stable, lowest deviation growth
+
+
+#### Long‑Horizon (100 steps) behaviour
+
+* All models diverge due to partial observability
+
+* [x₂,vₓ₂] retains coherent structure longest
+
+* Errors accumulate smoothly and plausibly
+
+#### Test‑Set MAE
+
+x₂‑only: 0.1318
+
+vₓ₂‑only: 0.2266
+
+[x₂,vₓ₂] : 
+
+### Notebook 2 Summary
+
+* A minimal pair of coordinates can support meaningful short‑term forecasting
+
+* Partial observability imposes strict limits on long‑range prediction
+
+* Reduced‑order models reveal how much structure is retained in a small set of observables
 
 
 
