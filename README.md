@@ -1,4 +1,4 @@
-# Double Pendulum ML — Forecasting Chaotic Dynamics Under Full and Partial Observability
+# Double Pendulum ML : Forecasting Chaotic Dynamics Under Full and Partial Observability
 
 This repository explores data‑driven forecasting for the double pendulum, a classical chaotic mechanical system.
 Two complementary modelling settings are examined:
@@ -9,17 +9,24 @@ Reduced‑order forecasting using only the most informative observables of the s
 
 The project combines simulation, dimensionality reduction, sensitivity analysis, and sequence modelling to study how chaos, partial observability, and physical structure influence forecasting performance.
 
-
-
 ## Overview
-The double pendulum exhibits sensitive dependence on initial conditions, making long‑horizon prediction difficult.
-This project examines how sequence models behave under:
+The double pendulum is an eight‑dimensional chaotic system with strong sensitivity to initial conditions.
+This project investigates:
 
-full observability (all 8 state variables)
+how LSTM models behave under full and partial observability
 
-reduced observability (1–2 coordinates)
+how dimensionality reduction and predictive sensitivity reveal informative coordinates
 
-The goal is to understand what predictive structure remains when only a subset of physically meaningful coordinates is available.
+how reduced‑order models compare to full‑state baselines
+
+how physics‑informed losses influence long‑horizon stability
+
+The two notebooks form a coherent pipeline:
+
+**Notebook 1**: full‑state forecasting + physics‑informed baseline
+
+**Notebook 2**: reduced‑order forecasting + coordinate selection
+
 
 ## Key Results
 Full‑State Model
