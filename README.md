@@ -206,5 +206,3 @@ Both notebooks generate their own simulation data; you may run the notebooks loc
 
 ## License: 
 Released under the MIT License
-retains a meaningful fraction of full‑state accuracy
-
