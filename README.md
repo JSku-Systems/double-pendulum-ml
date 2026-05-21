@@ -67,9 +67,37 @@ The two notebooks form a coherent pipeline:
 
 * Deviation curves show exponential‑like error growth
 
+### Physics‑Informed Model
 
+* Adds an energy‑based penalty term
 
+* Scale‑matched weighting (λ ≈ 10⁻³–10⁻⁴)
 
+* Same architecture as baseline
+
+#### Short‑horizon behaviour
+
+* Preserves oscillatory structure
+
+* Exhibits a consistent positional offset
+
+* More structurally coherent than the baseline
+
+#### Long‑horizon behaviour
+
+* Retains oscillatory geometry longer
+
+* Diverges under chaos but collapses more gracefully
+
+* Vertical coordinates show largest deviations
+
+### Notebook 1 Summary
+
+**Baseline:** accurate short‑term, unstable long‑term
+
+**Physics‑informed:** less precise locally, more stable structurally
+
+**Both** diverge eventually due to chaotic amplification
 
 
 
