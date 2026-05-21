@@ -25,7 +25,7 @@ The two notebooks form a coherent pipeline:
 
 **Notebook 1**: full‑state forecasting using a baseline model and physics informed model
 
-**Notebook 2**: reduced‑order forecasting and coordinate selection <\br>
+**Notebook 2**: reduced‑order forecasting and coordinate selection <br>
 
 
 ## Notebook 1 : Full‑State Forecasting 
@@ -97,7 +97,7 @@ The two notebooks form a coherent pipeline:
 
 **Physics‑informed:** less precise locally, more stable structurally
 
-**Both:** diverge eventually due to chaotic amplification
+**Both:** diverge eventually due to chaotic amplification <br>
 
 
 ## Notebook 2 : Reduced‑Order Forecasting
@@ -162,7 +162,7 @@ All models use the same:
 
 * Partial observability imposes strict limits on long‑range prediction
 
-* Reduced‑order models reveal how much structure is retained in a small set of observables
+* Reduced‑order models reveal how much structure is retained in a small set of observables <br>
 
 
 
