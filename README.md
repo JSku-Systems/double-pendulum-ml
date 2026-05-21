@@ -41,7 +41,7 @@ The two notebooks form a coherent pipeline:
 
 * Max‑value normalisation
 
-#### Baseline Model
+### Baseline Model
 
 * Single‑layer LSTM
 
@@ -51,6 +51,21 @@ The two notebooks form a coherent pipeline:
 
 * Early stopping, no shuffling
 
+#### Short‑horizon (20‑step) behaviour
+
+* Tracks true motion well
+
+* Divergence remains modest
+
+* Errors grow gradually, consistent with early‑stage chaotic amplification
+
+#### Long‑horizon (100‑step) behaviour
+
+* Rapid divergence once autoregressive errors accumulate
+
+* Loss of physical plausibility
+
+* Deviation curves show exponential‑like error growth
 
 
 
