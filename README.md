@@ -75,7 +75,7 @@ The two notebooks form a coherent pipeline:
 
 * Similar architecture as baseline
 
-#### Short‑horizon behaviour
+#### Short‑horizon (20 step) behaviour
 
 * Preserves oscillatory structure
 
@@ -83,7 +83,7 @@ The two notebooks form a coherent pipeline:
 
 * More structurally coherent than the baseline
 
-#### Long‑horizon behaviour
+#### Long‑horizon (100 step) behaviour
 
 * Retains oscillatory geometry longer
 
@@ -97,7 +97,13 @@ The two notebooks form a coherent pipeline:
 
 **Physics‑informed:** less precise locally, more stable structurally
 
-**Both** diverge eventually due to chaotic amplification
+**Both:** diverge eventually due to chaotic amplification
+
+
+
+
+
+
 
 
 
