@@ -28,7 +28,7 @@ The two notebooks form a coherent pipeline:
 **Notebook 2**: reduced‑order forecasting and coordinate selection
 
 
-## Notebook 1 : Full‑State Forecasting Dataset
+## Notebook 1 Full‑State Forecasting Dataset :
 * 20 simulated trajectories
 
 * Approximately 9020 samples
