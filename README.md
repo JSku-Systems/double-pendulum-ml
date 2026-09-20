@@ -173,9 +173,9 @@ All models use the same:
 
 * Data‑driven analyses (PCA, t‑SNE, UMAP, sensitivity) identify informative coordinates
 
-* Reduced‑order models using [x₂,vₓ₂] recover a substantial fraction of full‑state performance
+* Reduced‑order models using [x₂,vₓ₂]  retain most of the full-state performance
 
-* Partial observability leads to smooth, physically plausible divergence rather than numerical instability
+* Partial observability leads to errors accumulate in a physically consistent manner rather than diverging numerically
 
 
 ## Running the Project: 
@@ -192,7 +192,7 @@ Run the notebooks in order:
 
 02_reduced_order_forecasting.ipynb
 
-Both notebooks generate their own simulation data; you may run the notebooks locally or in cloud environments.
+Both notebooks generate their own simulation data; the notebooks can run locally or in a cloud environment (e.g. Colab).
 
 
 ## Future Work: 
