@@ -7,7 +7,7 @@ Two complementary modelling settings are examined:
 
 * **Reduced‑order forecasting** using only the most informative observables of the second mass
 
-The project combines simulation, dimensionality reduction, sensitivity analysis, and sequence modelling to study how chaos, partial observability, and physical structure influence forecasting performance.
+The project combines simulation, dimensionality reduction, and sequence modelling to examine how partial observability and physical structure affect forecasting performance.
 
 ## Overview :
 The double pendulum is an eight‑dimensional chaotic system with strong sensitivity to initial conditions.
