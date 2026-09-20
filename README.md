@@ -112,7 +112,7 @@ To identify informative coordinates, the full dataset is analysed using:
 
 * Predictive sensitivity; one‑step regression errors for each coordinate
 
-* Across all methods, x₂ and vₓ₂ consistently emerge as the most informative observables.
+* Across all methods, x₂ and vₓ₂ consistently rank highest across all methods.
 
 
 ### Reduced‑Order Models :
