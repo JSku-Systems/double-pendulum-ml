@@ -160,7 +160,7 @@ All models use the same:
 
 * A minimal pair of coordinates can support meaningful short‑term forecasting
 
-* Partial observability imposes strict limits on long‑range prediction
+* Partial observability places a firm upper bound on long-range prediction
 
 * Reduced‑order models reveal how much structure is retained in a small set of observables <br>
 
