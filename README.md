@@ -175,7 +175,7 @@ All models use the same:
 
 * Reduced‑order models using [x₂,vₓ₂]  retain most of the full-state performance
 
-* Partial observability leads to errors accumulate in a physically consistent manner rather than diverging numerically
+* Partial observability produces error growth that is physically consistent rather than numerically unstable
 
 
 ## Running the Project: 
