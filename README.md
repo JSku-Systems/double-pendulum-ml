@@ -21,7 +21,7 @@ This project investigates:
 
 * how physics‑informed losses influence long‑horizon stability
 
-The two notebooks form a coherent pipeline:
+The two notebooks build on each other:
 
 **Notebook 1**: full‑state forecasting using a baseline model and physics informed model
 
